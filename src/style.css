@@ -1,0 +1,183 @@
+	body {
+		font-family: arial;
+		background-color: black;
+	}
+	.navbar {
+		display: flex;
+		color: white;
+		height: 90px;
+		border-color: white;
+	}
+
+	.navbar > h1 {
+		margin-left: 3%;
+	}
+
+	.navbar > h2 {
+		margin-left: 3%;
+		margin-right: 35%;
+	}
+
+	.navbar > img {
+		margin-top: 2%;
+		margin-left: 40%;
+		height: 30%;
+	}
+
+	.main {
+		height: 100%;
+		background-color: #121212;
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-top: 2%;
+		border-radius: 2%;
+	}
+
+	.header {
+		padding-top: 2%;
+		margin-left: 5%;
+  		font-size: 60px;
+  		color: #bb86fc;
+	}
+
+
+	.boxes {
+		display: flex;
+	}
+
+	.boxOne {
+		border-color: white;
+		color: white;
+		margin-left: 5%;
+		margin-top: 3%;
+		height: 90%;
+		width: 100%;
+	}
+
+	.greetingsBox {
+		font-size: 36px;
+		margin-left: 2%;
+	}
+
+	.greetingsBox > p {
+		margin: 1%;
+	}
+
+	.socialMedia {
+		margin-top: 20%;
+		margin-left: 2%;
+	}
+
+	.socialMedia > h4 {
+		margin: 0;
+		font-weight: 10;
+		font-size: 22px;
+		color: gray;
+	}
+	.socialMedia > p {
+		margin-top: 1%;
+		font-size: 14px;
+	}
+
+	.boxTwo {
+		color: white;
+		margin-left: 10%;
+		margin-top: 3%;
+		width: 90%;
+		height: 100%;
+	}
+
+	.bottomBox {
+		display: flex;
+		margin-top: 10%;
+		margin-left: 2%;
+	}
+
+	.getInTouch {
+		margin-right: 30%;
+	}
+
+	.getInTouch > h4 {
+		margin: 0;
+		font-size: 22px;
+		color: gray;
+	}
+
+	.getInTouch > p {
+		margin-top: 1%;
+	}
+
+	.location {
+		margin: 0;
+	}
+
+	.location > h4 {
+		margin: 0;
+		font-size: 22px;
+		color: gray;
+	}
+
+	.location > p {
+		margin-top: 1%;
+	}
+
+	.formTopRow {
+		display: flex;
+	}
+
+	.firstName {
+		display: block;
+	}
+
+	.firstName > label {
+		font-size: 22px;
+	}
+
+	.lastName {
+		margin-left: 5%;
+		display: block;
+	}
+
+	.lastName > label {
+		font-size: 22px;
+	}
+
+	.formSecondRow {
+		display: flex;
+	}
+
+	.email {
+		margin-top: 5%;
+	}
+
+
+	.budget {
+		margin-top: 5%;
+		margin-left: 5%;
+	}
+
+	input {
+		background-color: transparent;
+		color: gray;
+		border-top: none;
+		border-left: none;
+		border-right: none;
+		border-bottom-color: gray;
+	}
+
+	button {
+		margin-top: 5%;
+		height: 10%;
+		width: 45%;
+		margin-left: 28%;
+		background-color: #bb86fc;
+		color: white;
+		border: none;
+		border-radius: 5%;
+		font-size: 28px;
+	}
+
+	.message {
+		height: 200px; 
+		width: 71%;
+	}
